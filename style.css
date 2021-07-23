@@ -1,0 +1,68 @@
+nav{
+    background-image: linear-gradient(red, green);
+}
+
+
+header ul li{
+    padding: 10px;
+    position: relative;
+}
+nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    bottom: 15px;
+    background: violet;
+    transition: width 0.5s;
+}
+header ul li a:hover::after{
+    width: 100%;
+}
+span{
+    background: -webkit-linear-gradient( #05c3f3, #f1c40f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+span:hover{
+    background: -webkit-linear-gradient(#f1c40f, #05c3f3, );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/* slide part */
+main{
+    background-color:lightgrey ;
+}
+.carousel-inner img{
+    height: 500px;
+    margin-top: 35px;
+}
+.title{
+   color: royalblue; 
+}
+/* battleground catagories */
+.battleground{
+    overflow: hidden;
+    background: white;
+    border-radius: 5px;
+    padding: 10px;
+    height: 400px;
+
+}
+.battleground img{
+    
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+}
+.battleground:hover{
+    box-shadow: 1px 1px 50px;
+    box-shadow:1px 1px 50px;
+}
+h3{
+    color: red;
+}
+.animate__animated.animate__jackInTheBox {
+    --animate-duration: 5s;
+  }
