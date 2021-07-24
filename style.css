@@ -66,3 +66,22 @@ h3{
 .animate__animated.animate__jackInTheBox {
     --animate-duration: 5s;
   }
+  .animate__animated.animate__rollIn {
+    --animate-duration: 5s;
+  }
+  /* others start here */
+  #games{
+      border: 1px solid crimson;
+      border-radius: 10px;
+      padding: 5px;
+      overflow: hidden;
+  }
+  .Others img {
+      width: 100%;
+      height: 100px;
+  }
+  .animate__animated.animate__flipInY {
+    --animate-duration: 5s;
+  }
+
+  
