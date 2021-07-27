@@ -20,13 +20,13 @@
     <header>
         <nav class="navbar fixed-top  navbar-expand-lg navbar-light">
             <div class="container">
-              <a class="navbar-brand d-flex align-items-center" href="#"> <img src="image/logo.png" alt="" width="60" height="60" class="d-inline-block align-text-top">
+              <a class="navbar-brand d-flex align-items-center" href="#"> <img src="Image/logo.png" alt="" width="60" height="60" class="d-inline-block align-text-top">
               <span class="fw-bolder fs-2 animate__animated animate__rubberBand animate__infinite	infinite ">Ahad-Gaming</span></a>
               <button style="background-color: aqua; color: black;" class="navbar-toggler" type="button" data-bs-toggle="collapse"data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center">
+                <l class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center">
                   <li class="nav-item">
                     <a class="nav-link active text-white fw-bolder" aria-current="page" href="#">  Home</a>
                   </li>
@@ -42,11 +42,72 @@
                   <li class="nav-item">
                     <a class="nav-link active text-white fw-bolder" href="#">Strategy</a>
                   </li>
-
+                  <li> <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    Register
+                    </button>
+                  </li>
               </ul>
+              
               </div>
             </div> 
           </nav>
+                <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel"> Register :</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <form class="row g-3">
+                          <div class="col-md-6">
+                            <label for="inputEmail4" class="form-label">First Name</label>
+                            <input type="email" class="form-control" id="inputEmail4">
+                          </div>
+                          <div class="col-md-6">
+                            <label for="inputPassword4" class="form-label">Last Name</label>
+                            <input type="password" class="form-control" id="inputPassword4">
+                          </div>
+                          <div class="col-12">
+                            <label for="inputAddress" class="form-label">Email</label>
+                            <input type="text" class="form-control" id="inputAddress" placeholder="Enter Your Email">
+                          </div>
+                          <div class="col-12">
+                            <label for="inputAddress2" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="inputAddress2" placeholder="Enter Your Password">
+                          </div>
+                          <div class="col-md-6">
+                            <label for="inputCity" class="form-label">City</label>
+                            <input type="text" class="form-control" id="inputCity">
+                          </div>
+                          <div class="col-md-4">
+                            <label for="inputState" class="form-label">State</label>
+                            <select id="inputState" class="form-select">
+                              <option selected>Choose...</option>
+                              <option>...</option>
+                            </select>
+                          </div>
+                          <div class="col-md-2">
+                            <label for="inputZip" class="form-label">Zip</label>
+                            <input type="text" class="form-control" id="inputZip">
+                          </div>
+                          <div class="col-12">
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" id="gridCheck">
+                              <label class="form-check-label" for="gridCheck">
+                                Check me out
+                              </label>
+                            </div>
+                          </div>
+                          <div class="col-12">
+                            <button type="submit" class="btn btn-primary justify-content-between">Sign in</button>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
     </header>
     <main>
        <!-- Banners Start Here -->
@@ -84,21 +145,21 @@
         <div class="row gx-5 gy-4">
           <div class="col-12 col-lg-4 col-md-6 col-sm-12">
            <div class="battleground animate__animated animate__pulse animate__infinite	infinite">
-             <img src="image/battleground.jpg" alt="">
+             <img src="Image/battleground.jpg" alt="">
              <h3>PUBG</h3>
              <p>The official PLAYERUNKNOWN'S BATTLEGROUNDS designed exclusively for mobile. Play free anywhere, anytime. PUBG MOBILE delivers the most intense free-to-play multiplayer action on mobile. Drop in, gear up, and compete.</p>
            </div>
           </div>
           <div class="col-12 col-lg-4 col-md-6 col-sm-12">
             <div class="battleground animate__animated animate__pulse animate__infinite	infinite">
-              <img src="image/battleground2.jpg" alt="">
+              <img src="Image/battleground2.jpg" alt="">
               <h3>Free Fire</h3>
               <p>Garena Free Fire is a battle royale game, developed by 111 Dots Studio and published by Garena for Android and iOS. It became the most downloaded mobile game globally in 2019. The game received the award for the "Best Popular Vote Game" by the Google</p>
             </div>
           </div>
           <div class="col-12 col-lg-4 col-md-6 col-sm-12">
             <div class="battleground animate__animated animate__pulse animate__infinite	infinite">
-              <img src="image/battleground3.jpg" alt="">
+              <img src="Image/battleground3.jpg" alt="">
               <h3>Call Of Duty</h3>
               <p>Call of Duty is a first-person shooter video game franchise published by Activision. Starting out in 2003, it first focused on games set in World War II. Over time, the series has seen games set in the midst of the Cold War, futuristic worlds, and outer space.</p>
             </div>
@@ -111,21 +172,21 @@
        <div class="row gx-5 gy-4">
          <div class="col-12 col-lg-4 col-md-6 col-sm-12">
           <div class="battleground animate__animated animate__jackInTheBox animate__infinite	infinite">
-            <img src="image/action.jpg" alt="">
+            <img src="Image/action.jpg" alt="">
             <h3>Shadow Fight</h3>
             <p>Shadow Fight  is a role-playing fighting game developed by Nekki. It is the second installment in the Shadow Fight series and was soft-launched on October 22, 2013. The full game was released worldwide on May 1, 2014</p>
           </div>
          </div>
          <div class="col-12 col-lg-4 col-md-6 col-sm-12">
            <div class="battleground animate__animated animate__jackInTheBox animate__infinite	infinite">
-             <img src="image/action1.jpg" alt="">
+             <img src="Image/action1.jpg" alt="">
              <h3>War Games</h3>
              <p>High school student David Lightman (Matthew Broderick) unwittingly hacks into a military supercomputer while searching for new video games. After starting a game of Global Thermonuclear War, Lightman leads the supercomputer to activate </p>
            </div>
          </div>
          <div class="col-12 col-lg-4 col-md-6 col-sm-12">
            <div class="battleground animate__animated animate__jackInTheBox animate__infinite	infinite">
-             <img src="image/action2.jpg" alt="">
+             <img src="Image/action2.jpg" alt="">
              <h3>Modern Combat</h3>
              <p>Modern Combat Versus. Drop into a brand-new multiplayer first-person shooter featuring fun, action-packed gameplay. Choose your Agent, master your role, and dominate the battlefield with your team. From skilled attackers to supportive defenders.</p>
            </div>
@@ -138,21 +199,21 @@
      <div class="row gx-5 gy-4">
        <div class="col-12 col-lg-4 col-md-6 col-sm-12">
         <div class="battleground animate__animated animate__rollIn animate__infinite	infinite">
-          <img src="image/run.jpg" alt="">
+          <img src="Image/run.jpg" alt="">
           <h3>Run Ninja</h3>
           <p>Fast paced, super addictive game where your goal to run and kill all trained enemies who have captured the peaceful fun loving town in Kungfu valley. Keep running Ninja! Jump and duck obstacles while collecting money</p>
         </div>
        </div>
        <div class="col-12 col-lg-4 col-md-6 col-sm-12">
          <div class="battleground animate__animated animate__rollIn animate__infinite	infinite">
-           <img src="image/run1.jpg" alt="">
+           <img src="Image/run1.jpg" alt="">
            <h3>Subway Surfers</h3>
            <p>Subway Surfers is an endless runner mobile game co-developed by Kiloo and SYBO Games, private companies based in Denmark. It is available on Android, iOS, Kindle, and Windows Phone platforms and uses the Unity game engine.</p>
          </div>
        </div>
        <div class="col-12 col-lg-4 col-md-6 col-sm-12">
          <div class="battleground animate__animated animate__rollIn animate__infinite	infinite">
-           <img src="image/run2.jpg" alt="">
+           <img src="Image/run2.jpg" alt="">
            <h3>Temple Run 2</h3>
            <p>Temple Run 2 is an endless running video game developed and published by Imangi Studios. A sequel to Temple Run, the game was produced, designed and programmed by husband and wife team Keith Shepherd and Natalia Luckyanova, with art by Kiril Tchangov.</p>
          </div>
@@ -160,26 +221,26 @@
      </div>
    </div>
    <!-- stragic game here -->
-   <div class="container mt-5" id="">
+   <div class="container mt-5" id="Strategy">
     <h1 class="title">  4 . Strategic Games : </h1>
    <div class="row gx-5 gy-4">
      <div class="col-12 col-lg-4 col-md-6 col-sm-12">
       <div class="battleground animate__animated animate__flipInY animate__infinite	infinite">
-        <img src="image/strategy.jpg" alt="">
+        <img src="Image/strategy.jpg" alt="">
         <h3>Run Ninja</h3>
         <p>Fast paced, super addictive game where your goal to run and kill all trained enemies who have captured the peaceful fun loving town in Kungfu valley. Keep running Ninja! Jump and duck obstacles while collecting money</p>
       </div>
      </div>
      <div class="col-12 col-lg-4 col-md-6 col-sm-12">
        <div class="battleground animate__animated animate__flipInY animate__infinite	infinite">
-         <img src="image/strategy1.jpg" alt="">
+         <img src="Image/strategy1.jpg" alt="">
          <h3>Subway Surfers</h3>
          <p>Subway Surfers is an endless runner mobile game co-developed by Kiloo and SYBO Games, private companies based in Denmark. It is available on Android, iOS, Kindle, and Windows Phone platforms and uses the Unity game engine.</p>
        </div>
      </div>
      <div class="col-12 col-lg-4 col-md-6 col-sm-12">
        <div class="battleground animate__animated animate__flipInY animate__infinite	infinite">
-         <img src="image/strategy2.jpg" alt="">
+         <img src="Image/strategy2.jpg" alt="">
          <h3>Temple Run 2</h3>
          <p>Temple Run 2 is an endless running video game developed and published by Imangi Studios. A sequel to Temple Run, the game was produced, designed and programmed by husband and wife team Keith Shepherd and Natalia Luckyanova, with art by Kiril Tchangov.</p>
        </div>
@@ -192,27 +253,27 @@
     <div class="row gx-5">
       <div class="col">
        <div class="Others animate__animated animate__slideInRight animate__infinite	infinite">
-        <img src="image/others.jpg" alt="">
+        <img src="Image/others.jpg" alt="">
        </div>
       </div>
       <div class="col">
         <div class="Others animate__animated animate__slideInRight animate__infinite	infinite">
-          <img src="image/others2.jpg" alt="">
+          <img src="Image/others2.jpg" alt="">
         </div>
       </div>
       <div class="col">
         <div class="Others animate__animated animate__slideInRight animate__infinite	infinite ">
-          <img src="image/others3.jpg" alt="">
+          <img src="Image/others3.jpg" alt="">
         </div>
       </div>
       <div class="col">
         <div class="Others animate__animated animate__slideInRight animate__infinite	infinite">
-          <img src="image/others4.jpg" alt="">
+          <img src="Image/others4.jpg" alt="">
         </div>
       </div>
       <div class="col">
         <div class="Others animate__animated animate__slideInRight animate__infinite	infinite">
-          <img src="image/others5.jpg" alt="">
+          <img src="Image/others5.jpg" alt="">
         </div>
       </div>
     </div>
@@ -221,7 +282,7 @@
     <footer>
       <div class="row g-0">
         <div class="col-sm-6 col-md-8">
-
+          
         </div>
         <div class="col-6 col-md-4">
 

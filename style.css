@@ -1,9 +1,7 @@
 nav{
     background-image: linear-gradient(red, green);
 }
-
-
-header ul li{
+nav ul li{
     padding: 10px;
     position: relative;
 }
@@ -83,5 +81,4 @@ h3{
   .animate__animated.animate__flipInY {
     --animate-duration: 5s;
   }
-
   
